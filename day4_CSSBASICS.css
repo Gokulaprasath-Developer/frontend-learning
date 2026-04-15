@@ -1,0 +1,34 @@
+/* <a target="blank" href="https://www.instagram.com/actorvijay/">
+<img class="i1" src="./assets/insta.jpg" height="40" width="40" >
+</a>
+
+^this arfe from html */
+.but{
+    padding: 5px;
+    margin: 10px 0 10px 15px;
+}
+.tvk{
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    padding-left: 230px;
+}
+.v1{
+    margin:10px 0 10px 50px;
+}
+.a1{
+    position:relative;
+    bottom: 75px;
+    left:15px
+}
+.i1{
+    position: fixed;
+bottom: 150px;
+right:10px;
+}
+/* postioning:
+relative-takes space from the orginal area
+absolute-takes space from the starting of body
+sticky-the item will be sticked whenn the place is came
+fixed-this wont move from the given area
+margin>border>padding */
