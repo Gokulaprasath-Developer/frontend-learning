@@ -1,0 +1,67 @@
+/* inline: color addition in a same line of html (duplication)
+internal: color in head tag (improper messy style)
+external(recomended): separete file for css and linking with html */
+
+
+/* h1{
+    color:red;
+    background-color: yellow;
+} */
+ /* this will change all the h1 tag - element */
+
+ /* NOW universal * for BG */
+ *{
+    background-color: #F2E7DA;
+ }
+
+ /* class color this must be added in the html */
+ .tamil{
+    color:red;
+    font-size: 150%;
+ }
+.ve{
+    color:#F5C20A;
+    font-size: 150%;
+}
+.ka{
+    color:red;
+    font-size: 150%;
+}
+.tv{
+    color:red
+}
+h2{
+    color:#F5C20A
+}
+h3{
+    color:#F5C20A
+}
+.a{
+    color:#F5C20A
+}
+.b{
+    color: red;
+}
+button{
+    color: red;
+}
+.ch{
+    color:#F5C20A;
+    background-color: red;
+}
+
+/* before css activityu to link with html */
+
+<html>
+<head>
+    <tittle>TVK</tittle>
+    <link rel = "stylesheet" href="./style.css">
+</head>
+<body> 
+   <!-- for separte color in same line -->
+    <h1> 
+    <span class = "tamil">TAMIZHAGA</span> 
+    <span class = "ve">VETRI</span>
+    <span class = "ka">KHAZHAGAM</span>   
+    </h1>
+    <h3 class = "ch"> CHAIRPERSON : C.JOSEPH VIJAY</h3> 
