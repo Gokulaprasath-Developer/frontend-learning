@@ -1,0 +1,25 @@
+.tab{
+    text-transform: capitalize;
+    text-align: justify;
+}
+.wh{
+    text-decoration-line:underline;
+    text-decoration-color:black;
+    text-decoration-style:dotted ;
+    text-decoration-thickness:3px;
+}
+// .tvk{
+//     position: sticky;
+//     top: 0px;
+//     background-color: black;
+//     padding-left: 230px;
+    text-shadow: 3px 3px 4px #F5C20A ;
+// .ch{
+//     color:#F5C20A;
+//     background-color: red;
+    text-align: center;
+.a{
+    color:#F5C20A;
+    line-height: 50px;
+    text-indent: 20px;
+}
