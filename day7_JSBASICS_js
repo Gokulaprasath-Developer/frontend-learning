@@ -1,0 +1,47 @@
+// this used to print any values in the console
+console.log(1*3/3)
+console.log("gokul")
+//data: colection of information
+//data type: 
+// string-"gokul"
+//number-123
+//boolean-True or False
+console.log(12 > 2);
+//To find the data type use-TYPEOF
+console.log(typeof("brocode"));
+console.log(typeof(345));
+console.log(typeof(12 > 2));
+
+//Variable is a container that stores any value
+var a = 22
+var name = "gokul"
+console.log(a);
+console.log(name);
+
+//OPERATORS
+console.log(12 > 3);
+
+//LOGICAL OPERATOR
+
+// AND OR NOT
+console.log(12 == 12 && 1 > 5, "AND")
+// one false = false
+console.log(12 == 12 || 1 > 5, "OR")
+// one true = true
+
+// now if else condition
+
+if(12 > 5){
+    console.log("good")
+}else{
+    console.log("wrong")
+}
+
+var num = 12
+if(num % 2 == 0){
+    console.log("even")
+}else{
+    console.log("odd")
+}
+//"%" will give remaider
+//"/" will give quotient
