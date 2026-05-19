@@ -1,0 +1,95 @@
+REACT JS is library
+Library = “You call it”
+
+A library is a collection of ready-made functions/tools that you use whenever you want.
+
+Framework = “It calls you”
+
+A framework already has a structure/rules.
+You put your code inside it, and the framework controls the flow.
+
+1. Virtual DOM
+
+Think of the Virtual DOM like a copy of the real webpage inside memory.
+
+React first changes this copy instead of directly touching the real webpage
+
+Real Life Example
+
+Imagine a teacher checking homework.
+
+Without Virtual DOM
+
+Teacher rewrites the entire notebook even if one word changes.
+
+With Virtual DOM
+
+Teacher compares old and new pages and changes only the wrong word.
+
+That saves time and improves speed.
+
+2. Diffing Algorithm
+
+Diffing means:
+
+Comparing OLD Virtual DOM and NEW Virtual DOM.
+
+React asks:
+
+What changed?
+What stayed same?
+What should update?
+
+This comparison process is called the Diffing Algorithm.
+
+3. Reconciliation
+
+Reconciliation means:
+
+The complete process React uses to update the UI efficiently.
+
+It includes:
+
+Creating new Virtual DOM
+Comparing with old Virtual DOM (Diffing)
+Updating real DOM minimally
+
+Reconciliation = Entire update process
+Diffing = Comparison step inside reconciliation
+
+4. Fiber
+
+Fiber is React’s modern internal engine/system.
+
+Old React updated everything continuously.
+
+Problem:
+
+Big apps became slow
+UI could freeze
+
+Fiber solved this.
+Fiber allows React to:
+
+Break work into small pieces
+Pause work
+Continue later
+Prioritize important updates
+
+for react installation :
+copy paste the vite code - create new folder and open cmd paste it- select correct options and run it.
+ open vs code - open new terminal- run( npm i)
+ready to use
+npm run dev - must to enter whenever we using it after pc on/to install node modules
+
+NODE JS : java script RUN TIME environment
+NPM - node package manager - js packages
+
+In src:
+Browser only run index.html but we can't directly handle this 
+main.jsx - index.css
+app.jsx - app.css
+
+app.jsx > main.jsx > index.html ( this the flow)
+
+jsx - in html coded in JS
